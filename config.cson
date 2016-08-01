@@ -1,0 +1,25 @@
+"*":
+  core: {}
+  "disable-keybindings":
+    allBundledPackages: true
+    allCommunityPackages: true
+    exceptBundledPackages: [
+      "find-and-replace"
+    ]
+    exceptCommunityPackages: [
+      "expand-selection-to-quotes"
+      "toggle-quotes"
+    ]
+    prefixKeys: [
+      "ctrl-k"
+      "ctrl-tab"
+    ]
+  editor:
+    fontSize: 18
+    showIndentGuide: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "25266396-d8ac-3d4d-a0b2-c95906736ecf"
+  welcome:
+    showOnStartup: false

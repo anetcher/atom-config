@@ -1,0 +1,9 @@
+toggle-quotes
+
+language-haskell
+
+disable-keybindings
+expand-selection-to-quotes
+keybinding-cheatsheet
+selection-mode
+terminal-plus

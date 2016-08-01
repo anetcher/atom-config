@@ -1,0 +1,77 @@
+"body > atom-workspace.workspace":
+    # Window
+    "ctrl-w ctrl-i": "window:focus-pane-above"
+    "ctrl-w ctrl-k": "window:focus-pane-below"
+    "ctrl-w ctrl-j": "window:focus-pane-on-left"
+    "ctrl-w ctrl-l": "window:focus-pane-on-right"
+
+    # Pane
+    "ctrl-shift-j": "pane:show-previous-item"
+    "ctrl-shift-l": "pane:show-next-item"
+
+    "ctrl-p i": "pane:split-up-and-copy-active-item"
+    "ctrl-p k": "pane:split-down-and-copy-active-item"
+    "ctrl-p j": "pane:split-left-and-copy-active-item"
+    "ctrl-p l": "pane:split-right-and-copy-active-item"
+
+    # Tree-view
+    "ctrl-t": "tree-view:toggle-focus"
+
+    # Terminal-plus
+    "alt-t": "terminal-plus:toggle"
+
+    # Command
+    "ctrl-e": "core:cancel"
+    "alt-x": "command-palette:toggle"
+    "ctrl-?": "key-binding-resolver:toggle"
+
+
+
+"body .tree-view":
+    # Moving
+    "ctrl-i": "core:move-up"
+    "ctrl-k": "core:move-down"
+    "ctrl-j": "tree-view:collapse-directory"# editor:join-lines
+    "ctrl-l": "tree-view:expand-item"# editor:select-line
+
+
+
+"body > atom-workspace.workspace atom-text-editor.editor":
+    # Moving
+    "ctrl-i": "core:move-up"
+    "ctrl-k": "core:move-down"
+    "ctrl-j": "core:move-left"# editor:join-lines
+    "ctrl-l": "core:move-right"# editor:select-line
+
+    "alt-i": "editor:move-to-beginning-of-previous-paragraph"
+    "alt-k": "editor:move-to-beginning-of-next-paragraph"
+    "alt-j": "editor:move-to-previous-subword-boundary"
+    "alt-l": "editor:move-to-next-subword-boundary"
+
+    "ctrl-alt-j": "editor:move-to-first-character-of-line"
+    "ctrl-alt-l": "editor:move-to-end-of-line"
+
+    # Selection
+    "ctrl-space": "selection-mode:toggle-without-deselecting"
+
+    # Editing
+    "ctrl-alt-i": "editor:move-line-up"
+    "ctrl-alt-k": "editor:move-line-down"
+
+    # Deleting and Cutting
+    "ctrl-b": "core:backspace"
+    "ctrl-d": "core:delete"# 	find-and-replace:select-next
+
+    "alt-b": "editor:delete-to-beginning-of-subword"# editor:move-to-beginning-of-word
+    "alt-d": "editor:delete-to-end-of-subword"
+
+    # Multiple cursors
+    "alt-shift-i": "editor:add-selection-above"
+    "alt-shift-k": "editor:add-selection-below"
+    "ctrl-alt-f": "find-and-replace:select-next"
+
+    # Indentaion
+    "ctrl-tab": "editor:auto-indent"
+
+    # Command
+    "ctrl-e": "editor:consolidate-selections"
