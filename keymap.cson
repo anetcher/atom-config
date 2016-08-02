@@ -1,19 +1,4 @@
 "body > atom-workspace.workspace":
-    # Window
-    "ctrl-w ctrl-i": "window:focus-pane-above"
-    "ctrl-w ctrl-k": "window:focus-pane-below"
-    "ctrl-w ctrl-j": "window:focus-pane-on-left"
-    "ctrl-w ctrl-l": "window:focus-pane-on-right"
-
-    # Pane
-    "ctrl-shift-j": "pane:show-previous-item"
-    "ctrl-shift-l": "pane:show-next-item"
-
-    "ctrl-p i": "pane:split-up-and-copy-active-item"
-    "ctrl-p k": "pane:split-down-and-copy-active-item"
-    "ctrl-p j": "pane:split-left-and-copy-active-item"
-    "ctrl-p l": "pane:split-right-and-copy-active-item"
-
     # Tree-view
     "ctrl-t": "tree-view:toggle-focus"
 
@@ -27,7 +12,25 @@
 
 
 
-"body .tree-view":
+"body > atom-workspace.workspace atom-pane.pane":
+    # Window
+    "ctrl-w i": "window:focus-pane-above"
+    "ctrl-w k": "window:focus-pane-below"
+    "ctrl-w j": "window:focus-pane-on-left"
+    "ctrl-w l": "window:focus-pane-on-right"
+    "ctrl-w d": "pane:close"
+
+    # Pane
+    "ctrl-shift-j": "pane:show-previous-item"
+    "ctrl-shift-l": "pane:show-next-item"
+
+    "ctrl-p i": "pane:split-up-and-copy-active-item"
+    "ctrl-p k": "pane:split-down-and-copy-active-item"
+    "ctrl-p j": "pane:split-left-and-copy-active-item"
+    "ctrl-p l": "pane:split-right-and-copy-active-item"
+
+
+"body > atom-workspace.workspace ol.tree-view":
     # Moving
     "ctrl-i": "core:move-up"
     "ctrl-k": "core:move-down"
@@ -48,8 +51,8 @@
     "alt-j": "editor:move-to-previous-subword-boundary"
     "alt-l": "editor:move-to-next-subword-boundary"
 
-    "ctrl-alt-j": "editor:move-to-first-character-of-line"
-    "ctrl-alt-l": "editor:move-to-end-of-line"
+    "ctrl-h": "editor:move-to-first-character-of-line"
+    "ctrl-;": "editor:move-to-end-of-line"
 
     # Selection
     "ctrl-space": "selection-mode:toggle-without-deselecting"
