@@ -21,8 +21,8 @@
     "ctrl-w d": "pane:close"
 
     # Pane
-    "ctrl-shift-j": "pane:show-previous-item"
-    "ctrl-shift-l": "pane:show-next-item"
+    "ctrl-alt-j": "pane:show-previous-item"
+    "ctrl-alt-l": "pane:show-next-item"
 
     "ctrl-p i": "pane:split-up-and-copy-active-item"
     "ctrl-p k": "pane:split-down-and-copy-active-item"
@@ -67,6 +67,8 @@
 
     "alt-b": "editor:delete-to-beginning-of-subword"# editor:move-to-beginning-of-word
     "alt-d": "editor:delete-to-end-of-subword"
+
+    "ctrl-alt-d": "editor:delete-to-end-of-line"
 
     # Multiple cursors
     "alt-shift-i": "editor:add-selection-above"

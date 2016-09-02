@@ -1,5 +1,12 @@
 "*":
-  core: {}
+  "autocomplete-java":
+    foldImports: false
+  core:
+    disabledPackages: [
+      "nodejs-snippets"
+      "javascript-snippets"
+      "vim-mode"
+    ]
   "disable-keybindings":
     allBundledPackages: true
     allCommunityPackages: true
@@ -9,17 +16,18 @@
     exceptCommunityPackages: [
       "expand-selection-to-quotes"
       "toggle-quotes"
+      "vim-mode"
     ]
     prefixKeys: [
       "ctrl-k"
       "ctrl-tab"
     ]
   editor:
-    fontSize: 18
+    fontSize: 25
     showIndentGuide: true
-    tabLength: 4
     tabType: "soft"
   "exception-reporting":
     userId: "25266396-d8ac-3d4d-a0b2-c95906736ecf"
+  racer: {}
   welcome:
     showOnStartup: false
